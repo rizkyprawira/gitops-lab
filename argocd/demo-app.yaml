@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/rizkyprawira/gitops-lab.git
     targetRevision: main
-    path: apps/demo-app
+    path: apps/demo-app/overlays/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: demo
