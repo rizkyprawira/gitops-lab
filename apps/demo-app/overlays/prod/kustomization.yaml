@@ -6,10 +6,6 @@ resources:
 
 nameSuffix: -prod
 
-images:
-  - name: nginx
-    newTag: "1.26"
-
 patches:
   - target:
       kind: Deployment
