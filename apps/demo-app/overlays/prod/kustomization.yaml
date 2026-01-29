@@ -16,4 +16,4 @@ patches:
         value: 3
     images:
     - name: nginx
-      newTag: "1.25"
+      newTag: "1.26"
