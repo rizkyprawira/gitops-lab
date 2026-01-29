@@ -6,6 +6,10 @@ resources:
 
 nameSuffix: -prod
 
+images:
+  - name: nginx
+    newTag: "1.26"
+
 patches:
   - target:
       kind: Deployment
@@ -14,6 +18,3 @@ patches:
       - op: replace
         path: /spec/replicas
         value: 3
-    images:
-    - name: nginx
-      newTag: "1.26"
